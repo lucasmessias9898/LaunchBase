@@ -1,6 +1,6 @@
 /**
  * Desafio LaunchBase BootCamp
- * Função e Estrutura de Repetição
+ * Desafio 1-3: Funções e estruturas de repetição
  * Lucas M. Messias
  */
 
