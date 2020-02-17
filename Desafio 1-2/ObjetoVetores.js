@@ -1,6 +1,6 @@
 /**
  * Desafio LaunchBase BootCamp
- * Objetos e vetores
+ * Desafio 1-2: Lidando com objetos e vetores
  * Lucas M. Messias
  */
 
