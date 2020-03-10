@@ -25,6 +25,7 @@ header {
 
 .links {
     text-align: center;
+    margin: 0 0 20px;
 }
 
 .links a {
@@ -92,9 +93,11 @@ header {
 
 .card {
     background-color: var(--color-rocket);
+    border-radius: 10px;
 }
 
 .card_image-container img {
+    padding: 10px 0;
     width: 100%;
 }
 
@@ -133,6 +136,7 @@ header {
     height: 90%;
     margin: 5vh auto;
     position: relative;
+    border-radius: 10px;
 }
 
 .modal .close-modal {
