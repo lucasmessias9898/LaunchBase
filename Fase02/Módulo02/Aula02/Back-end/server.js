@@ -3,11 +3,11 @@ const nunjucks = require('nunjucks')
 
 const server = express()
 
-server.use(express.static('public'))
+server.use(express.static('../public'))
 
 server.set("view engine", "html")
 
-nunjucks.configure("views", {
+nunjucks.configure("../views", {
     express: server
 })
 
@@ -15,7 +15,7 @@ server.get("/", function(req, res) {
     return res.render("index")
 })
 
-server.listen(6000, function() {
+server.listen(5000, function() {
     console.log("Server is running")
 })
 
