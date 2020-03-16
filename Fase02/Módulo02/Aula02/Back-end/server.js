@@ -12,8 +12,13 @@ nunjucks.configure("../views", {
 })
 
 server.get("/", function(req, res) {
-    return res.render("index")
+    return res.render("about")
 })
+
+server.get("/", function(req, res) {
+    return res.render("portfolio")
+})
+
 
 server.listen(5000, function() {
     console.log("Server is running")
